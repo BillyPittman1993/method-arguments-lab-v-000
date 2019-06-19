@@ -9,7 +9,7 @@ end
 puts "Hello, can you please introduce yourself?"
 name = gets.strip
 introduction(name)
-puts "Sry, I could barely hear you, what is your name and what language do you speak?"
+puts "Sry, I could barely hear you, what is your name and what language are you fluent in?"
 name = gets.strip
 language = gets.strip
 introduction_with_language(name, language)
